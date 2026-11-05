@@ -1,0 +1,14 @@
+
+{
+  "name": "ejemplo-rabbitmq",
+  "version": "1.0.0",
+  "description": "Ejemplo básico de comunicación con RabbitMQ y Node.js",
+  "main": "productor.js",
+  "scripts": {
+    "productor": "node productor.js",
+    "consumidor": "node consumidor.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.8"
+  }
+}
